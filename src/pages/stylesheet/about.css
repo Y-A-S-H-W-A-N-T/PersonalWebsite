@@ -1,0 +1,10 @@
+*{
+    color: red;
+}
+
+.about{
+    display: inline;
+    justify-content: left;
+    float: left;
+    margin-top: 80px;
+}

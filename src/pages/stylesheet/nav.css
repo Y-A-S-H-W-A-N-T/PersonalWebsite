@@ -1,0 +1,30 @@
+.sidenav{
+    margin-right: 50px;
+}
+
+.sidenav p{
+    color: rgb(249, 50, 242);
+    margin-top: 90px;
+    font-family: hollow;
+    font-size: 60px;
+    font-family: 'Londrina Outline', cursive;
+    
+}
+
+.sidenav a{
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: hollow;
+    src: url(../stylesheet/outline.ttf);
+}
+
+.nav{
+    display: inline;
+    float: right;
+}
+
+.sidenav p:hover{
+    font-family: 'Londrina Solid', cursive;
+}

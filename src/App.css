@@ -1,0 +1,12 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+    position: absolute;
+}
