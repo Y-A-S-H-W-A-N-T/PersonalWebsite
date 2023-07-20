@@ -1,13 +1,65 @@
-*{
-   margin: 0px;
-}
 
 @font-face {
     font-family: harry;
     src: url(../stylesheet/harry.TTF);
 }
 
-.about{
+.name{
+    display: flex;
+    margin-top: 200px;
+    font-size: 80px;
+    color: black;
+    font-family: 'Indie Flower', cursive;
+    margin-left: 50px;
+    font-weight: bold;
+}
+
+.name span{
     font-family: harry;
+    margin: 20px;
     font-size: 100px;
+    color: black;
+    padding: 20px;
+    font-weight: lighter;
+}
+
+.name span:hover{
+    font-size: 120px;
+    transition: 700ms;
+    cursor: pointer;
+    color: red;
+    font-weight: bold;
+}
+
+.det{
+    display: flex;
+    font-size: 80px;
+    color: black;
+    font-family: 'Indie Flower', cursive;
+    margin-left: 50px;
+    font-weight: bold;
+}
+
+.skill{
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+    margin-left: 60px;
+}
+
+.skill p span{
+    font-size: 30x;
+    font-weight: lighter;
+}
+
+.skill p span:hover{
+    color: red;
+    transition: 700ms;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.skill p{
+    font-weight: bold;
+    font-size: 35px;
 }

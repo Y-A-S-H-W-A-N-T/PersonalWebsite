@@ -17,8 +17,14 @@
 .nav{
     position: fixed;
     right: 5%;
+    top: 0%;
 }
 
 .sidenav p:hover{
     font-family: 'Londrina Solid', cursive;
+}
+
+.sidenav{
+    position: fixed;
+    right: 5%;
 }

@@ -15,7 +15,7 @@ function Nav() {
   return (
     <div className='nav'>
         <div className='sidenav'>
-            <NavLink style={activecss} to='/'><p>ABOUT</p></NavLink>
+            <NavLink style={activecss} to='/'><p>PROFILE</p></NavLink>
             <NavLink style={activecss} to='/resume'><p>RESUME</p></NavLink>
             <NavLink style={activecss} to='/contact'><p>CONTACT</p></NavLink>
             <NavLink style={activecss} to='/projects'><p>PROJECTS</p></NavLink>
