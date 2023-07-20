@@ -4,7 +4,6 @@
 }
 
 video{
-    margin-top: -80px;
     object-fit: cover;
     z-index: -1;
     position: fixed;
