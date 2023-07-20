@@ -1,10 +1,13 @@
 *{
-    color: red;
+   margin: 0px;
+}
+
+@font-face {
+    font-family: harry;
+    src: url(../stylesheet/harry.TTF);
 }
 
 .about{
-    display: inline;
-    justify-content: left;
-    float: left;
-    margin-top: 80px;
+    font-family: harry;
+    font-size: 100px;
 }

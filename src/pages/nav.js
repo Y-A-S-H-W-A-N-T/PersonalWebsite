@@ -1,15 +1,24 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import './stylesheet/nav.css'
 
+
 function Nav() {
+
+  const activecss = ({ isActive })=>{
+      console.log('working')
+      return{
+        fontFamily: isActive? 'Londrina Solid': 'Londrina Outline'
+      }
+  }
+
   return (
     <div className='nav'>
         <div className='sidenav'>
-            <Link to='/'><p>ABOUT</p></Link>
-            <Link to='/resume'><p>RESUME</p></Link>
-            <Link to='/contact'><p>CONTACT</p></Link>
-            <Link to='/projects'><p>PROJECTS</p></Link>
+            <NavLink style={activecss} to='/'><p>ABOUT</p></NavLink>
+            <NavLink style={activecss} to='/resume'><p>RESUME</p></NavLink>
+            <NavLink style={activecss} to='/contact'><p>CONTACT</p></NavLink>
+            <NavLink style={activecss} to='/projects'><p>PROJECTS</p></NavLink>
         </div>
     </div>
   )

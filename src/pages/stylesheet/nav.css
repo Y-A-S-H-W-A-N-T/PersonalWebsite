@@ -1,14 +1,8 @@
-.sidenav{
-    margin-right: 50px;
-}
-
-.sidenav p{
-    color: rgb(249, 50, 242);
+.nav .sidenav p{
+    color: rgb(249, 51, 243);
     margin-top: 90px;
-    font-family: hollow;
     font-size: 60px;
-    font-family: 'Londrina Outline', cursive;
-    
+    font-weight: bold;
 }
 
 .sidenav a{
@@ -21,8 +15,8 @@
 }
 
 .nav{
-    display: inline;
-    float: right;
+    position: fixed;
+    right: 5%;
 }
 
 .sidenav p:hover{

@@ -1,0 +1,17 @@
+color: rgb(249, 50, 242);
+
+.active{
+    font-family: 'Londrina Solid', cursive;
+    color: rgb(249, 51, 243);
+    margin-top: 90px;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.btn{
+    color: rgb(249, 51, 243);
+    margin-top: 90px;
+    font-size: 60px;
+    font-family: 'Londrina Outline', cursive;
+    font-weight: bold;
+}
