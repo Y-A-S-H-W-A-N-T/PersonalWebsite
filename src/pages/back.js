@@ -7,7 +7,7 @@ import Nav from './nav'
 function Back() {
   return (
     <div>
-        <video autoPlay loop muted>
+        <video autoPlay loop muted className='spiderman'>
           <source src={livevideo}/>
         </video>
         <Nav/>

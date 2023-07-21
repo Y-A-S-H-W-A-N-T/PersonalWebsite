@@ -4,7 +4,6 @@ import Resume from './pages/resume'
 import About from './pages/about'
 import Projects from './pages/projects'
 import Back from './pages/back'
-import './App.css'
 
 function App() {
   return (
