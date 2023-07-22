@@ -1,9 +1,15 @@
 import React from 'react'
 import './stylesheet/about.css'
+import { motion } from "framer-motion"
+
 
 function About() {
   return (
-    <div className='about'>
+    <motion.div className='about'
+      initial={{ x: 300, opacity: 0 }}
+      animate={{ x: 0, opacity: 1 }}
+      exit={{ x: -300, opacity: 0 }}
+    >
       <div className='intro_name'>
         <p className='name'>
           I'm <span>Yashwant</span>
@@ -15,7 +21,7 @@ function About() {
       <div className='skill'>
         <p><span> Web </span> /<span> App </span>/<span> Game </span></p>
       </div>
-    </div>
+    </motion.div>
   )
 }
 

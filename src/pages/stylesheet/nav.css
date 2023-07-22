@@ -23,9 +23,26 @@
 .sidenav p:hover{
     font-family: 'Londrina Solid', cursive;
     color: red;
+    animation:  shake 0.8s  ;
 }
 
 .sidenav{
     position: fixed;
     right: 5%;
+}
+
+@keyframes shake{
+    0%{
+      transform: translateX(0)
+    }
+    25%{
+      transform: translateX(25px);
+    }
+      
+    50%{
+      transform: translateX(-25px);
+    }
+    100%{
+      transform: translateX(0px);
+    }
 }
