@@ -14,10 +14,10 @@ function Routesanimation() {
   return (
     <AnimatePresence>
         <Routes location={location} key={location.pathname}>
-          <Route path='/' element={<About/>}/>
-          <Route path='/contact' element={<Contact/>}/>
-          <Route path='/resume' element={<Resume/>}/>
-          <Route path='/projects' element={<Projects/>}/>
+          <Route exact path='/' element={<About/>}/>
+          <Route exact path='/contact' element={<Contact/>}/>
+          <Route exact path='/resume' element={<Resume/>}/>
+          <Route exact path='/projects' element={<Projects/>}/>
         </Routes>
     </AnimatePresence>
   )
