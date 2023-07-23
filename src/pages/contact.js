@@ -11,7 +11,7 @@ function contact() {
     animate={{ x: 0, y: 0, opacity: 1, transition: '1000ms' }}
     exit={{ x: -300, y: 300,  opacity: 0, transition: '1000ms' }}
     >
-      <Link to='https://github.com/Y-A-S-H-W-A-N-T' className='github'><img src='./images/github.png' alt='github'/></Link>
+      
     </motion.div>
   )
 }

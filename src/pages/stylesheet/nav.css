@@ -37,11 +37,11 @@
     }
     25%{
       transform: translateX(25px);
+      color: #F1EDE1;
     }
       
     50%{
       transform: translateX(-25px);
-      color: black;
     }
     100%{
       transform: translateX(0px);
