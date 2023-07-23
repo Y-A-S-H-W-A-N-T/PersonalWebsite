@@ -1,7 +1,7 @@
 
 @font-face {
     font-family: harry;
-    src: url(../stylesheet/harry.TTF);
+    src: url(../stylesheet/fonts/harry.TTF);
 }
 
 .name{
@@ -62,4 +62,16 @@
 .skill p{
     font-weight: bold;
     font-size: 35px;
+}
+
+.github img{
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+}
+
+.github img:hover{
+    background-color: red;
+    transition: 500ms;
+    border-radius: 500px;
 }

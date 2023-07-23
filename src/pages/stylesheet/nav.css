@@ -11,7 +11,7 @@
 
 @font-face {
     font-family: hollow;
-    src: url(../stylesheet/outline.ttf);
+    src: url(../stylesheet/fonts/outline.ttf);
 }
 
 .nav{
@@ -33,7 +33,7 @@
 
 @keyframes shake{
     0%{
-      transform: translateX(0)
+      transform: translateX(0);
     }
     25%{
       transform: translateX(25px);
@@ -41,6 +41,7 @@
       
     50%{
       transform: translateX(-25px);
+      color: black;
     }
     100%{
       transform: translateX(0px);
