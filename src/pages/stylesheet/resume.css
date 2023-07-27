@@ -1,0 +1,52 @@
+@font-face {
+    font-family: resume;
+    src: url(../stylesheet/fonts/resume.ttf);
+}
+
+*{
+    margin: 0px;
+}
+
+.resume{
+    display: flex;
+    margin-top: 200px;
+    opacity: 0.2px;
+    margin-left: 50px;
+}
+
+.resume h1{
+    font-size: 50px;
+    font-family: resume;
+    font-weight: bold;
+}
+
+.resume h1 span{
+    color: red;
+    font-weight: lighter;
+    font-size: 100px;
+}
+
+.resume p{
+    margin-left: 50%;
+    font-size: 40px;
+    font-family: resume;
+    font-weight: bold;
+    color: rgb(4, 4, 119);
+}
+
+.resume .pdf{
+    text-decoration: none;
+    color: black;
+    box-shadow: 7px 9px 20px red;
+    padding: 0px 30px 0px 30px;
+    transition: 550ms;
+    border-radius: 3px;
+}
+
+.resume .pdf:hover{
+    transition: 800ms;
+    box-shadow: 15px 25px 20px black;
+}
+
+
+

@@ -1,3 +1,7 @@
+body {
+    overflow: hidden; /* Hide scrollbars */
+}
+
 @font-face {
     font-family: harry;
     src: url(../stylesheet/fonts/harry.TTF);
@@ -74,13 +78,14 @@
 }
 
 .logo img{
-    height: 60px;
-    width: 60px;
+    height: 40px;
+    width: 40px;
     margin-right: 50px;
     border-radius: 500px;
+    opacity: 0.6;
 }
 
 .logo img:hover{
-    transition: 600ms;
-    box-shadow: 0px 0px  50px 15px red;
+    transition: 400ms;
+    opacity: 1;
 }
