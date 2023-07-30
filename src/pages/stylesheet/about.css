@@ -32,7 +32,6 @@ body {
     transition: 700ms;
     cursor: pointer;
     color: red;
-    font-weight: bold;
 }
 
 .det{
