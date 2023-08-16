@@ -17,7 +17,6 @@ function Nav() {
         <div className='sidenav'>
             <NavLink style={activecss} to='/'><p>PROFILE</p></NavLink>
             <NavLink style={activecss} to='/resume'><p>RESUME</p></NavLink>
-            <NavLink style={activecss} to='/contact'><p>SOCIAL</p></NavLink>
             <NavLink style={activecss} to='/projects'><p>PROJECTS</p></NavLink>
         </div>
     </div>

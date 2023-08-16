@@ -5,6 +5,7 @@ import About from './about'
 import Projects from './projects'
 import { Route, Routes, useLocation } from 'react-router-dom'
 import { AnimatePresence } from "framer-motion"
+import Footer from './footer'
 
 
 function Routesanimation() {
@@ -19,6 +20,7 @@ function Routesanimation() {
           <Route exact path='/resume' element={<Resume/>}/>
           <Route exact path='/projects' element={<Projects/>}/>
         </Routes>
+        <Footer/>
     </AnimatePresence>
   )
 }
