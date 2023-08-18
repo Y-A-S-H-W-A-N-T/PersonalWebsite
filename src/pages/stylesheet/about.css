@@ -3,50 +3,57 @@ body {
 }
 
 @font-face {
-    font-family: harry;
-    src: url(../stylesheet/fonts/harry.TTF);
+    font-family: about;
+    src: url(../stylesheet/fonts/sketchy.ttf);
+}
+
+@font-face {
+    font-family: intro;
+    src: url(../stylesheet/fonts/bouncy.ttf);
 }
 
 .name{
     display: flex;
-    margin-top: 240px;
+    margin-top: 150px;
     font-size: 80px;
     color: black;
-    font-family: 'Indie Flower', cursive;
+    font-family: about;
     margin-left: 50px;
     font-weight: bold;
 }
 
 .name span{
-    font-family: harry;
-    font-size: 100px;
+    font-family: about;
+    font-size: 80px;
     color: black;
-    height: 50px;
-    width: 50px;
+    height: 40px;
     margin: 60px;
     font-weight: lighter;
+    transition: 700ms;
 }
 
 .name span:hover{
-    font-size: 120px;
+    font-size: 90px;
     transition: 700ms;
     cursor: pointer;
-    color: red;
+    color: orchid;
 }
 
 .det{
     display: flex;
-    font-size: 80px;
+    font-size: 60px;
     color: black;
-    font-family: 'Indie Flower', cursive;
+    font-family: about;
     margin-left: 50px;
     font-weight: bold;
+    width: 50%;
 }
 
 .skill{
-    font-family: 'Indie Flower', cursive;
+    font-family: intro;
     font-size: 30px;
-    margin-left: 60px;
+    margin-left: 35px;
+    margin-top: 30px;
     height: 50px;
     width: 80%;
 }
@@ -56,13 +63,13 @@ body {
     font-weight: lighter;
     margin: 10px;
     padding: 10px;
+    transition: 700ms;
 }
 
 .skill p span:hover{
-    color: red;
+    color: orchid;
     transition: 700ms;
     font-size: 40px;
-    font-weight: bold;
     cursor: pointer;
 }
 

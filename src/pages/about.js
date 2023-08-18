@@ -20,10 +20,10 @@ function About() {
         </p>
       </div>
       <div>
-        <p className='det'>Student at Veltech University</p>
+        <p className='det'>Student and a self taught programmer.</p>
       </div>
       <div className='skill'>
-        <p><span> Web </span> /<span> App </span>/<span> Game Dev </span>/<span> 3D Modelling </span></p>
+        <p><span> Web </span> /<span> App </span>/<span> Game Dev </span>/<span> Animations </span></p>
       </div>
       <div  className='logos'>
         <Link to='https://github.com/Y-A-S-H-W-A-N-T' className='logo github'><img src={Github} alt='github'/></Link>
