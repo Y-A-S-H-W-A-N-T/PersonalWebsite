@@ -1,7 +1,22 @@
+@font-face {
+  font-family: hollow;
+  src: url(../stylesheet/fonts/outline.ttf);
+}
+
+@font-face {
+font-family: comics;
+src: url(../stylesheet/fonts/comic.ttf);
+}
+
+@font-face {
+font-family: comic_fill;
+src: url(../stylesheet/fonts/comic_fill.ttf);
+}
+
 .nav .sidenav p{
     color: black;
     margin-top: 90px;
-    font-size: 60px;
+    font-size: 30px;
     font-weight: bold;
 }
 
@@ -9,10 +24,6 @@
     text-decoration: none;
 }
 
-@font-face {
-    font-family: hollow;
-    src: url(../stylesheet/fonts/outline.ttf);
-}
 
 .nav{
     position: fixed;
@@ -21,7 +32,7 @@
 }
 
 .sidenav p:hover{
-    font-family: 'Londrina Solid', cursive;
+    font-family: 'comic_fill';
     color: red;
     animation:  shake 0.8s  ;
 }

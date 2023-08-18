@@ -8,7 +8,7 @@ function Nav() {
   const activecss = ({ isActive })=>{
       console.log('working')
       return{
-        fontFamily: isActive? 'Londrina Solid': 'Londrina Outline',
+        fontFamily: isActive? 'comics': 'comic_fill',
       }
   }
 

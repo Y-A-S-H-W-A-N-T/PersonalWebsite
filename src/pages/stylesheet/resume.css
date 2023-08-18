@@ -1,6 +1,6 @@
 @font-face {
     font-family: resume;
-    src: url(../stylesheet/fonts/resume.ttf);
+    src: url(../stylesheet/fonts/sketchy.ttf);
 }
 
 *{
@@ -12,11 +12,12 @@
     margin-top: 200px;
     opacity: 0.2px;
     margin-left: 50px;
+    font-family: resume;
 }
 
 .resume h1{
-    font-size: 50px;
-    font-family: resume;
+    height: 150px;
+    font-size: 40px;
     font-weight: bold;
 }
 
@@ -29,7 +30,6 @@
 .resume p{
     margin-left: 50%;
     font-size: 40px;
-    font-family: resume;
     font-weight: bold;
     color: rgb(4, 4, 119);
 }
