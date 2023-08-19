@@ -6,7 +6,6 @@ import './stylesheet/nav.css'
 function Nav() {
 
   const activecss = ({ isActive })=>{
-      console.log('working')
       return{
         fontFamily: isActive? 'comics': 'comic_fill',
       }
