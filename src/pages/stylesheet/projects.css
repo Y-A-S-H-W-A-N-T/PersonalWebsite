@@ -17,7 +17,9 @@
 .card-box{
     margin-top: 60px;
     margin-left: 30px;
-    width: 75%;
+    width: 65%;
+    background-color: red;
+    padding: 20px;
 }
 
 .shopping-website-card img{
@@ -32,3 +34,4 @@
 .blender-card img{
     width: 380px;
 }
+

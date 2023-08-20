@@ -5,6 +5,8 @@ import './stylesheet/projects.css'
 import ShopCard from './stylesheet/logos/shopping.jpeg'
 import BlenderCard from './stylesheet/logos/blender.jpeg'
 import RentsCard from './stylesheet/logos/rents.jpeg'
+import CollegeCard from './stylesheet/logos/college.jpeg'
+import TodoCard from './stylesheet/logos/todo.jpeg'
 
 function Projects() {
   return (
@@ -31,12 +33,12 @@ function Projects() {
         </div>
         <div className='to-do-card card'>
           <Link to="https://www.youtube.com/shorts/XOhucJMZz9Q">
-            <img src={ShopCard} alt='shopping website'/>
+            <img src={TodoCard} alt='shopping website'/>
           </Link>
         </div>
         <div className='college-website-card card'>
           <Link to="https://www.youtube.com/shorts/XOhucJMZz9Q">
-            <img src={ShopCard} alt='shopping website'/>
+            <img src={CollegeCard} alt='shopping website'/>
           </Link>
         </div>
       </div>
