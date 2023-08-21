@@ -21,14 +21,14 @@ function Projects() {
             <img src={ShopCard} alt='shopping website'/>
           </Link>
         </div>
-        <div className='blender-card card'>
-          <Link to="https://www.youtube.com/shorts/XOhucJMZz9Q">
-            <img src={BlenderCard} alt='shopping website'/>
-          </Link>
-        </div>
         <div className='house-rental-card card'>
           <Link to="https://www.youtube.com/shorts/XOhucJMZz9Q">
             <img src={RentsCard} alt='shopping website'/>
+          </Link>
+        </div>
+        <div className='blender-card card'>
+          <Link to="https://www.youtube.com/shorts/XOhucJMZz9Q">
+            <img src={BlenderCard} alt='shopping website'/>
           </Link>
         </div>
         <div className='to-do-card card'>
