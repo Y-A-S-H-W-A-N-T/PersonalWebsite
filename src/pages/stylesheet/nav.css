@@ -58,3 +58,9 @@ src: url(../stylesheet/fonts/comic_fill.ttf);
       transform: translateX(0px);
     }
 }
+
+@media only screen and (max-width: 1150px){
+  .nav .sidenav p{
+    font-size: 20px;
+  }
+}

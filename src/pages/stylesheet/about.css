@@ -16,13 +16,13 @@ body {
     display: flex;
     margin-top: 150px;
     font-size: 80px;
-    color: black;
+    color: red;
     font-family: about;
     margin-left: 50px;
     font-weight: bold;
 }
 
-.name span{
+.yashwant{
     font-family: about;
     font-size: 80px;
     color: black;
@@ -42,7 +42,7 @@ body {
 .det{
     display: flex;
     font-size: 60px;
-    color: black;
+    color: red;
     font-family: about;
     margin-left: 50px;
     font-weight: bold;
@@ -88,7 +88,6 @@ body {
     width: 40px;
     margin-right: 50px;
     border-radius: 500px;
-    opacity: 0.8;
     box-shadow: 0px 0px 100px black;
     transition: 600ms;
 }
@@ -97,4 +96,54 @@ body {
     transition: 600ms;
     opacity: 1;
     box-shadow: 0px 0px 0px black;
+}
+
+/* Media Query */
+
+@media screen and (max-width: 1150px) {
+    .name, .yashwant{
+        font-size: 60px;
+    }
+    .det{
+        color: red;
+        font-size: 50px;
+    }
+    .yashwant:hover{
+        font-size: 70px;
+        transition: 700ms;
+        cursor: pointer;
+        color: orchid;
+    }
+    .skill p span{
+        font-size: 25px;
+    }
+    .skill p{
+        font-size: 25px;
+    }
+    .logo img{
+        margin-top: 0px;
+    }
+    .logo img{
+        height: 40px;
+        width: 40px;
+    }
+    /* .logos{
+        
+    }
+    
+    .logo img{
+        height: 40px;
+        width: 40px;
+        margin-right: 50px;
+        border-radius: 500px;
+        opacity: 0.8;
+        
+        transition: 600ms;
+    } */
+}
+
+@media screen and (max-width: 735px){
+    .yashwant{
+        margin-left: -20px;
+    }
 }
