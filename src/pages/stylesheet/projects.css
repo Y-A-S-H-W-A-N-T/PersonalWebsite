@@ -1,6 +1,10 @@
 body {
     height: auto;
 }
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
 .card img{
     height: 240px;
     width: 300px;
