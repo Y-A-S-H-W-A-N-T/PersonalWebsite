@@ -100,7 +100,7 @@ body {
 
 /* Media Query */
 
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 860px) {
     .name, .yashwant{
         font-size: 60px;
     }
