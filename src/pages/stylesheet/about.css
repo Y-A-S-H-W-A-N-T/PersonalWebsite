@@ -1,5 +1,6 @@
-body {
-    overflow: hidden; /* Hide scrollbars */
+::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
 }
 
 @font-face {
@@ -127,23 +128,45 @@ body {
         height: 40px;
         width: 40px;
     }
-    /* .logos{
-        
+}
+
+/* For Mobile */
+
+@media screen and (max-width: 1100px){
+    body{
+        width: 100%;
+    }
+    .about{
+        position: fixed;
+        top: 25%;
+        left: 0%;
+    }
+    .name{
+        font-size: 90px;
+    }
+    .yashwant{
+        font-size: 100px;
+    }
+    .name span:hover{
+        font-size: 110px;
+    }
+    .det{
+        font-size: 90px;
+        width: 80%;
+    }
+    .skill p span{
+        font-size: 40px;
+    }
+    .skill{
+        width: 100%;
+    }
+    .logos{
+        margin-left: 60px;
     }
     
     .logo img{
-        height: 40px;
-        width: 40px;
-        margin-right: 50px;
-        border-radius: 500px;
-        opacity: 0.8;
-        
-        transition: 600ms;
-    } */
-}
-
-@media screen and (max-width: 735px){
-    .yashwant{
-        margin-left: -20px;
+        height: 70px;
+        width: 70px;
+        box-shadow: none;
     }
 }

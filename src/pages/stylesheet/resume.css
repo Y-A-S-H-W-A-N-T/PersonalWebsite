@@ -53,5 +53,18 @@
     box-shadow: 15px 25px 20px black;
 }
 
+@media screen and (max-width: 1100px){
+    .resume{
+        position: fixed;
+        top: 25%;
+        padding: 50px;
+    }
+    .resume h1{
+        font-size: 50px;
+    }
+    .resume h1 span{
+        font-size: 100px;
+    }
+}
 
 

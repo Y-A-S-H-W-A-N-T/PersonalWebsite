@@ -60,8 +60,20 @@ src: url(../stylesheet/fonts/comic_fill.ttf);
     }
 }
 
-@media only screen and (max-width: 1000px){
+/* For Mobile */
+
+@media screen and (max-width: 1080px){
   .nav .sidenav p{
     font-size: 20px;
+    margin: 20px;
+    font-size: 30px;
+  }
+  .sidenav{
+    display: flex;
+  }
+  .nav{
+    position: fixed;
+    top: 5%;
+    left: 40%;
   }
 }

@@ -16,7 +16,7 @@ function About() {
     >
       <div className='intro_name'>
         <p className='name'>
-          I'm <span className='yashwant'>Yashwant</span>
+          I'm <span className='yashwant'>Yashwant.</span>
         </p>
       </div>
       <div>
