@@ -79,8 +79,19 @@ body {
 }
 
 @media screen and (max-width: 1100px){
-
-    .card{
+    .card-box{
+        opacity: 1;
+        position: fixed;
+        top: 25%;
         display: flex;
+        width: 100%;
+        overflow: auto;
+        white-space: nowrap;
+        display: inline;
+    }
+    .card img{
+        opacity: 1;
+        height: 800px;
+        width: 800px;
     }
 }
