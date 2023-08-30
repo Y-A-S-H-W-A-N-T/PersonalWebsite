@@ -64,7 +64,7 @@ src: url(../stylesheet/fonts/comic_fill.ttf);
 
 @media(min-width: 320px){
   .nav .sidenav p{
-    font-size: 15px;
+    font-size: 14px;
     margin: 10px;
   }
   .sidenav{

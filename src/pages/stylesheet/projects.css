@@ -94,13 +94,16 @@ body {
         width: 800px;
     }
 }
+
+/* for mobile screen */
+
 @media(min-width: 320px){
     body {
         overflow: scroll;
     }
     .card img{
-        height: 240px;
-        width: 300px;
+        height: 320px;
+        width: 350px;
         padding: 20px;
         transition: 600ms;
         box-shadow: 0px 0px 20px black;
