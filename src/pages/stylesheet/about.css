@@ -171,6 +171,7 @@
     .logo img{
         height: 35px;
         width: 35px;
+        box-shadow: none;
     }
     .logos{
         margin-top: 20px;
