@@ -28,27 +28,27 @@ body {
     margin-left: 30px;
     padding: 20px;
     padding-right: 0px;
-    width: 70%;
+    width: 75%;
 }
 
 .shopping-website-card img{
-    width: 465px;
+    width: 400px;
 }
 
 .house-rental-card img{
-    width: 465px;
+    width: 400px;
 }
 
 .blender-card img{
-    width: 280px;
+    width: 245px;
 }
 
 .to-do-card img{
-    width: 30   0px;
+    width: 255px;
 }
 
 .college-website-card img{
-    width: 300px;
+    width: 250px;
 }
 
 @media only screen and (max-width: 1530px){
@@ -65,20 +65,17 @@ body {
     }
 }
 
-@media only screen and (max-width: 1300px){
+@media only screen and (max-width: 1100px){
     body {
         overflow: scroll;
     }
     .card-box{
-        width: 60%;
+        width: 70%;
     }
     .card img{
         height: 200px;
         width: 300px;
     }
-}
-
-@media screen and (max-width: 1100px){
     .card-box{
         opacity: 1;
         position: fixed;
