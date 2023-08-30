@@ -64,6 +64,7 @@ src: url(../stylesheet/fonts/comic_fill.ttf);
 
 @media screen and (max-width: 1080px){
   .nav .sidenav p{
+    font-size: 20px;
     margin: 20px;
     font-size: 30px;
   }
@@ -74,12 +75,5 @@ src: url(../stylesheet/fonts/comic_fill.ttf);
     position: fixed;
     top: 5%;
     left: 40%;
-  }
-}
-
-@media screen and (min-width:320px){
-  .nav .sidenav p{
-    margin: 10px;
-    font-size: 15px;
   }
 }

@@ -170,36 +170,3 @@
         box-shadow: none;
     }
 }
-
-@media screen and (min-width:320px){
-    .about{
-        top: 10%;
-    }
-    .name{
-        font-size: 40px;
-    }
-    .yashwant{
-        font-size: 50px;
-    }
-    .name span:hover{
-        font-size: 50px;
-    }
-    .det{
-        font-size: 40px;
-        width: 100%;
-    }
-    .skill p span{
-        font-size: 15px;
-    }
-    .skill p{
-        font-size: 10px;
-    }
-    .skill p span:hover{
-        font-size: 20px;
-    }
-    .logo img{
-        height: 30px;
-        width: 30px;
-        margin: 50px;
-    }
-  }
