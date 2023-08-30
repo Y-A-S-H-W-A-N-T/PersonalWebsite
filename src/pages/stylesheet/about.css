@@ -132,41 +132,45 @@
 
 /* For Mobile */
 
-@media only screen and (max-width: 1100px){
-    body{
-        width: 100%;
-    }
+@media screen and (max-width: 1100px){
     .about{
         position: fixed;
-        top: 25%;
+        top: 10%;
         left: 0%;
     }
     .name{
-        font-size: 90px;
+        font-size: 40px;
+        margin-left: 15px;
     }
     .yashwant{
-        font-size: 100px;
+        font-size: 50px;
+        margin-left: 15px;
     }
     .name span:hover{
-        font-size: 110px;
+        font-size: 50px;
     }
     .det{
-        font-size: 90px;
-        width: 80%;
+        font-size: 40px;
+        width: 100%;
+        margin-left: 15px;
     }
     .skill p span{
-        font-size: 40px;
+        font-size: 20px;
+        margin: 0px;
+    }
+    .skill p{
+        font-size: 15px;
     }
     .skill{
         width: 100%;
+        margin-left: 15px;
     }
-    .logos{
-        margin-left: 60px;
+    .skill p span:hover{
+        font-size: 25px;
     }
-    
     .logo img{
-        height: 70px;
-        width: 70px;
-        box-shadow: none;
+        height: 40px;
+        width: 40px;
+        margin: 50px;
     }
 }

@@ -62,18 +62,15 @@ src: url(../stylesheet/fonts/comic_fill.ttf);
 
 /* For Mobile */
 
-@media screen and (max-width: 1080px){
+@media(max-width: 800px){
   .nav .sidenav p{
-    font-size: 20px;
-    margin: 20px;
-    font-size: 30px;
+    font-size: 15px;
+    margin: 10px;
   }
   .sidenav{
     display: flex;
   }
   .nav{
-    position: fixed;
     top: 5%;
-    left: 40%;
   }
 }
