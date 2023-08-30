@@ -65,6 +65,8 @@ body {
     }
 }
 
+ /* for small laptop screens */
+
 @media only screen and (max-width: 1100px){
     body {
         overflow: scroll;
@@ -92,3 +94,16 @@ body {
         width: 800px;
     }
 }
+@media(max-width: 800px){
+    body {
+        overflow: scroll;
+    }
+    .card img{
+        height: 240px;
+        width: 300px;
+        padding: 20px;
+        transition: 600ms;
+        box-shadow: 0px 0px 20px black;
+        margin: 5px;
+    }
+  }
