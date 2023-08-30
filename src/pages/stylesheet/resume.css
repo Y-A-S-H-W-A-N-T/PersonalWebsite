@@ -53,7 +53,7 @@
     box-shadow: 15px 25px 20px black;
 }
 
-@media(min-width: 320px){
+@media(max-width: 1100px){
     .resume{
         top: 5%;
     }
