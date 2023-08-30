@@ -62,7 +62,7 @@ src: url(../stylesheet/fonts/comic_fill.ttf);
 
 /* For Mobile */
 
-@media(max-width: 500px){
+@media(min-width: 320px){
   .nav .sidenav p{
     font-size: 15px;
     margin: 10px;

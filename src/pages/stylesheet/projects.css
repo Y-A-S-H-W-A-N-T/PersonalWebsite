@@ -94,7 +94,7 @@ body {
         width: 800px;
     }
 }
-@media(max-width: 500px){
+@media(min-width: 320px){
     body {
         overflow: scroll;
     }
