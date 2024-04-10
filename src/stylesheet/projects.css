@@ -1,0 +1,30 @@
+body {
+    height: auto;
+}
+
+@font-face {
+    font-family: hollow;
+    src: url(../stylesheet/fonts/outline.ttf);
+  }
+  
+  @font-face {
+  font-family: comics;
+  src: url(../stylesheet/fonts/comic.ttf);
+  }
+  
+  @font-face {
+  font-family: comic_fill;
+  src: url(../stylesheet/fonts/comic_fill.ttf);
+  }
+
+.proj{
+    display: flex;
+}
+
+.proj-titles p{
+    color: red;
+    font-size: 20px;
+    font-family: comics;
+    margin: 60px;
+}
+  

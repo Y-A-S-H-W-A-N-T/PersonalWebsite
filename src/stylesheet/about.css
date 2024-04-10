@@ -1,0 +1,185 @@
+::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
+
+@font-face {
+    font-family: about;
+    src: url(../stylesheet/fonts/sketchy.ttf);
+}
+
+@font-face {
+    font-family: intro;
+    src: url(../stylesheet/fonts/bouncy.ttf);
+}
+
+.name{
+    display: flex;
+    margin-top: 50px;
+    font-size: 80px;
+    color: red;
+    font-family: about;
+    margin-left: 50px;
+    font-weight: bold;
+}
+
+.yashwant{
+    font-family: about;
+    font-size: 80px;
+    color: black;
+    height: 40px;
+    margin: 60px;
+    font-weight: lighter;
+    transition: 700ms;
+}
+
+.name span:hover{
+    font-size: 90px;
+    transition: 700ms;
+    cursor: pointer;
+    color: orchid;
+}
+
+.det{
+    display: flex;
+    font-size: 60px;
+    color: red;
+    font-family: about;
+    margin-left: 50px;
+    font-weight: bold;
+    width: 50%;
+}
+
+.skill{
+    font-family: intro;
+    font-size: 30px;
+    margin-left: 35px;
+    margin-top: 30px;
+    height: 50px;
+    width: 80%;
+}
+
+.skill p span{
+    font-size: 30x;
+    font-weight: lighter;
+    margin: 10px;
+    padding: 10px;
+    transition: 700ms;
+}
+
+.skill p span:hover{
+    color: orchid;
+    transition: 700ms;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.skill p{
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.logos{
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.logo img{
+    height: 40px;
+    width: 40px;
+    margin-right: 20px;
+    border-radius: 500px;
+    box-shadow: 0px 0px 100px black;
+    transition: 600ms;
+}
+
+.logo img:hover{
+    transition: 600ms;
+    opacity: 1;
+    box-shadow: 0px 0px 0px black;
+    display: inline-flex;
+}
+
+.logos {
+    display: inline-flex;
+}
+
+/* Media Query */
+
+@media only screen and (max-width: 870px) {
+    .name, .yashwant{
+        font-size: 60px;
+    }
+    .det{
+        color: red;
+        font-size: 50px;
+    }
+    .yashwant:hover{
+        font-size: 70px;
+        transition: 700ms;
+        cursor: pointer;
+        color: orchid;
+    }
+    .skill p span{
+        font-size: 25px;
+    }
+    .skill p{
+        font-size: 25px;
+    }
+    .logo img{
+        margin-top: 0px;
+    }
+    .logo img{
+        height: 40px;
+        width: 40px;
+    }
+}
+
+/* For Mobile */
+
+@media(max-width: 1100px){
+    .about{
+        position: fixed;
+        top: 10%;
+        left: 0%;
+    }
+    .name{
+        font-size: 40px;
+        margin-left: 15px;
+    }
+    .yashwant{
+        font-size: 50px;
+        margin-left: 15px;
+    }
+    .name span:hover{
+        font-size: 50px;
+    }
+    .det{
+        font-size: 40px;
+        width: 100%;
+        margin-left: 15px;
+    }
+    .skill p span{
+        font-size: 17px;
+        margin: 0px;
+    }
+    .skill p{
+        font-size: 10px;
+    }
+    .skill{
+        width: 100%;
+        margin-left: 10px;
+    }
+    .skill p span:hover{
+        font-size: 20px;
+    }
+    .logo img{
+        height: 35px;
+        width: 35px;
+        box-shadow: none;
+    }
+    .logos{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+}

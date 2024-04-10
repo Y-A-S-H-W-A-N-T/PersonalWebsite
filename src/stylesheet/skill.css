@@ -1,0 +1,26 @@
+.skills img{
+    height: 60px;
+    width: 60px;
+    margin: 20px;
+    transition: 600ms;
+}
+
+.skills div{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-family: intro;
+    color: red;
+}
+
+.skill_set p{
+    border-bottom: 2px black solid;
+}
+.skill_set{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.skills {
+    width: 40%;
+    margin-left: 10%;
+}
