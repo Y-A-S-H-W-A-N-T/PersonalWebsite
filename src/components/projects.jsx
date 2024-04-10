@@ -2,7 +2,9 @@ import React from 'react'
 import { motion } from "framer-motion"
 import { Link } from 'react-router-dom'
 import '../stylesheet/projects.css'
-import ShopCard from '../stylesheet/logos/shopping.jpeg'
+import javascript from '../stylesheet/logos/javascript.png'
+import cplusplus from '../stylesheet/logos/c++.png'
+import python from '../stylesheet/logos/python.png'
 {/* ALSO ADD 3D MODELS */}
 {/* ADD HOSTED WEB LINKS & MOBILE APPS & AND GITHUB LINKS */}
 
@@ -29,7 +31,20 @@ function Projects() {
             <p>VR ESTATE</p>
         </div>
         <div className='proj-des'>
-          
+          <div className='skills-used'>
+              <img src={javascript} alt='javascript'/>
+              <img src={cplusplus} alt='c++'/>
+              <img src={python} alt='pyhton'/>
+          </div>
+            <div className='des'>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Id exercitationem, doloremque explicabo odit enim totam nemo 
+              itaque earum assumenda tempora harum quibusdam deserunt modi dolor quos nisi pariatur? Quia, quibusdam!
+              (PROJECT DESCRIPTION)(PROJECT DESCRIPTION)(PROJECT DESCRIPTION)(PROJECT DESCRIPTION)(PROJECT DESCRIPTION)
+              (PROJECT DESCRIPTION)(PROJECT DESCRIPTION)(PROJECT DESCRIPTION)(PROJECT DESCRIPTION)(PROJECT DESCRIPTION)
+            </div>
+            <div className='proj-link'>
+              <Link to=''>Click to check out project</Link>
+            </div>
         </div>
       </div>
     </motion.div>

@@ -27,4 +27,28 @@ body {
     font-family: comics;
     margin: 60px;
 }
+
+.proj-des{
+    width: 40%;
+    box-shadow: 10px 10px 20px black;
+    background-color: rgba(29, 8, 8, 0.832);
+    padding: 30px;
+    color: white;
+}
+
+.skills-used img{
+    height: 30px;
+    width: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.proj-des .des{
+    margin: 50px;
+}
+
+.proj-link{
+    margin-top: 20%;
+    margin-left: 50px;
+}
   
