@@ -49,11 +49,11 @@ const LOGO = Proj[0].Skills[0]
     >
       <div className='proj'>
         <div class="proj-titles">
-          <p style={{color: selected? 'black':'red'}} >TRANSLATOR</p>
-          <p style={{color: selected? 'red':'white'}} >COGNIZANCE</p>
-          <p style={{color: selected? 'red':'white'}} >XCHANGE</p>
-          <p style={{color: selected? 'red':'white'}} >WELLING</p>
-          <p style={{color: selected? 'red':'white'}} >VR ESTATE</p>
+          <p style={{color: selected? 'black':'red'}} onClick={()=>setSelectedProject(0)}>TRANSLATOR</p>
+          <p style={{color: selected? 'red':'white'}} onClick={()=>setSelectedProject(1)}>COGNIZANCE</p>
+          <p style={{color: selected? 'red':'white'}} onClick={()=>setSelectedProject(2)}>XCHANGE</p>
+          <p style={{color: selected? 'red':'white'}} onClick={()=>setSelectedProject(3)}>WELLING</p>
+          <p style={{color: selected? 'red':'white'}} onClick={()=>setSelectedProject(4)}>VR ESTATE</p>
         </div>
         <div className='proj-des'>
           {/* <div className='skills-used'>
@@ -61,13 +61,13 @@ const LOGO = Proj[0].Skills[0]
           </div> */}
           <div className='skills-used'>
             {
-              Proj[0].Skills.map((val)=>(
+              Proj[selectedProject].Skills.map((val)=>(
                 <img src={Images[val]} alt='firebase'/>
               ))
             }
           </div>
             <div className='des'>
-              {Proj[0].description} 
+              {Proj[selectedProject].description} 
             </div>
             <div className='proj-link'>
               <Link to=''>Click to check out project</Link>
