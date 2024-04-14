@@ -22,6 +22,7 @@ body {
 }
 
 .proj-titles p{
+    cursor: pointer;
     font-size: 20px;
     font-family: comics;
     margin: 60px;

@@ -34,8 +34,6 @@ import Proj from '../assets/projectList.jsx'
 function Projects() {
                   //0   1     2     3        4       5   6       7   8       9    10           11     12
   const Images = [node,react,vite,firebase,blender,next,mongodb,api,express,expo,reactnative,socket,chatgpt]
-
-  const selected = true
   const [selectedProject,setSelectedProject] = useState(0)
 
 const LOGO = Proj[0].Skills[0]
@@ -47,13 +45,14 @@ const LOGO = Proj[0].Skills[0]
     animate={{ y: 0, opacity: 1, transition: '1000ms' }}
     exit={{ y: 300,  opacity: 0, transition: '1000ms' }}
     >
+      {console.log(selectedProject)}
       <div className='proj'>
         <div class="proj-titles">
-          <p style={{color: selected? 'black':'red'}} onClick={()=>setSelectedProject(0)}>TRANSLATOR</p>
-          <p style={{color: selected? 'red':'white'}} onClick={()=>setSelectedProject(1)}>COGNIZANCE</p>
-          <p style={{color: selected? 'red':'white'}} onClick={()=>setSelectedProject(2)}>XCHANGE</p>
-          <p style={{color: selected? 'red':'white'}} onClick={()=>setSelectedProject(3)}>WELLING</p>
-          <p style={{color: selected? 'red':'white'}} onClick={()=>setSelectedProject(4)}>VR ESTATE</p>
+          <p style={{color: selectedProject==0? 'red':'black'}} onClick={()=>setSelectedProject(0)}>TRANSLATOR</p>
+          <p style={{color: selectedProject==1? 'red':'black'}} onClick={()=>setSelectedProject(1)}>COGNIZANCE</p>
+          <p style={{color: selectedProject==2? 'red':'black'}} onClick={()=>setSelectedProject(2)}>XCHANGE</p>
+          <p style={{color: selectedProject==3? 'red':'black'}} onClick={()=>setSelectedProject(3)}>WELLING</p>
+          <p style={{color: selectedProject==4? 'red':'black'}} onClick={()=>setSelectedProject(4)}>VR ESTATE</p>
         </div>
         <div className='proj-des'>
           {/* <div className='skills-used'>
