@@ -1,20 +1,45 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { motion } from "framer-motion"
+import { NavLink } from 'react-router-dom'
 import { Link } from 'react-router-dom'
 import '../stylesheet/projects.css'
+import node from '../stylesheet/logos/node.png'
+import react from '../stylesheet/logos/react.png'
+import reactnative from '../stylesheet/logos/reactnative.png'
+import expo from '../stylesheet/logos/expo.png'
+import redux from '../stylesheet/logos/redux.png'
+import django from '../stylesheet/logos/django.png'
+import express from '../stylesheet/logos/express.png'
+import ae from '../stylesheet/logos/ae.png'
+import mongodb from '../stylesheet/logos/mongodb.png'
+import git from '../stylesheet/logos/git.png'
+import firebase from '../stylesheet/logos/firebase.png'
+import api from '../stylesheet/logos/api.png'
+import mysql from '../stylesheet/logos/mysql.png'
+import next from '../stylesheet/logos/next.png'
+import godot from '../stylesheet/logos/godot.png'
+import unreal from '../stylesheet/logos/unreal.png'
+import vite from '../stylesheet/logos/vite.png'
+import graphql from '../stylesheet/logos/graphql.png'
+import blender from '../stylesheet/logos/blender.png'
 import javascript from '../stylesheet/logos/javascript.png'
 import cplusplus from '../stylesheet/logos/c++.png'
 import python from '../stylesheet/logos/python.png'
+import socket from '../stylesheet/logos/socket.png'
+import chatgpt from '../stylesheet/logos/chatgpt.png'
+import Proj from '../assets/projectList.jsx'
 {/* ALSO ADD 3D MODELS */}
 {/* ADD HOSTED WEB LINKS & MOBILE APPS & AND GITHUB LINKS */}
 
 function Projects() {
+                  //0   1     2     3        4       5   6       7   8       9    10           11     12
+  const Images = [node,react,vite,firebase,blender,next,mongodb,api,express,expo,reactnative,socket,chatgpt]
 
-  const selected = ({ isActive })=>{
-    return{
-      fontFamily: isActive? 'comics': 'comic_fill',
-    }
-}
+  const selected = true
+  const [selectedProject,setSelectedProject] = useState(0)
+
+const LOGO = Proj[0].Skills[0]
+
 
   return (
     <motion.div
@@ -24,23 +49,25 @@ function Projects() {
     >
       <div className='proj'>
         <div class="proj-titles">
-            <p>TRANSLATOR</p>
-            <p>COGNIZANCE</p>
-            <p>XCHANGE</p>
-            <p>WELLING</p>
-            <p>VR ESTATE</p>
+          <p style={{color: selected? 'black':'red'}} >TRANSLATOR</p>
+          <p style={{color: selected? 'red':'white'}} >COGNIZANCE</p>
+          <p style={{color: selected? 'red':'white'}} >XCHANGE</p>
+          <p style={{color: selected? 'red':'white'}} >WELLING</p>
+          <p style={{color: selected? 'red':'white'}} >VR ESTATE</p>
         </div>
         <div className='proj-des'>
+          {/* <div className='skills-used'>
+              <img src={Images[1]} alt='firebase'/>
+          </div> */}
           <div className='skills-used'>
-              <img src={javascript} alt='javascript'/>
-              <img src={cplusplus} alt='c++'/>
-              <img src={python} alt='pyhton'/>
+            {
+              Proj[0].Skills.map((val)=>(
+                <img src={Images[val]} alt='firebase'/>
+              ))
+            }
           </div>
             <div className='des'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Id exercitationem, doloremque explicabo odit enim totam nemo 
-              itaque earum assumenda tempora harum quibusdam deserunt modi dolor quos nisi pariatur? Quia, quibusdam!
-              (PROJECT DESCRIPTION)(PROJECT DESCRIPTION)(PROJECT DESCRIPTION)(PROJECT DESCRIPTION)(PROJECT DESCRIPTION)
-              (PROJECT DESCRIPTION)(PROJECT DESCRIPTION)(PROJECT DESCRIPTION)(PROJECT DESCRIPTION)(PROJECT DESCRIPTION)
+              {Proj[0].description} 
             </div>
             <div className='proj-link'>
               <Link to=''>Click to check out project</Link>
