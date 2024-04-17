@@ -48,10 +48,10 @@ const LOGO = Proj[0].Skills[0]
       {console.log(selectedProject)}
       <div className='proj'>
         <div class="proj-titles">
-          <p style={{color: selectedProject==0? 'red':'black',fontFamily: selectedProject==0? 'comic_fill':'comics'}} onClick={()=>setSelectedProject(0)}>TRANSLATOR</p>
-          <p style={{color: selectedProject==1? 'red':'black',fontFamily: selectedProject==1? 'comic_fill':'comics'}} onClick={()=>setSelectedProject(1)}>COGNIZANCE</p>
-          <p style={{color: selectedProject==2? 'red':'black',fontFamily: selectedProject==2? 'comic_fill':'comics'}} onClick={()=>setSelectedProject(2)}>XCHANGE</p>
-          <p style={{color: selectedProject==3? 'red':'black',fontFamily: selectedProject==3? 'comic_fill':'comics'}} onClick={()=>setSelectedProject(3)}>WELLING</p>
+          <p style={{color: selectedProject==0? 'red':'black',fontFamily: selectedProject==0? 'comic_fill':'comics'}} onClick={()=>setSelectedProject(0)}>XCHANGE</p>
+          <p style={{color: selectedProject==1? 'red':'black',fontFamily: selectedProject==1? 'comic_fill':'comics'}} onClick={()=>setSelectedProject(1)}>WELLING</p>
+          <p style={{color: selectedProject==2? 'red':'black',fontFamily: selectedProject==2? 'comic_fill':'comics'}} onClick={()=>setSelectedProject(2)}>TRANSLATOR</p>
+          <p style={{color: selectedProject==3? 'red':'black',fontFamily: selectedProject==3? 'comic_fill':'comics'}} onClick={()=>setSelectedProject(3)}>COGNIZANCE</p>
           <p style={{color: selectedProject==4? 'red':'black',fontFamily: selectedProject==4? 'comic_fill':'comics'}} onClick={()=>setSelectedProject(4)}>VR ESTATE</p>
         </div>
         <div className='proj-des'>
