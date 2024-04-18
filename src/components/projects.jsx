@@ -31,13 +31,14 @@ import amazonpoly from '../stylesheet/logos/amazonpoly.png'
 import npm from '../stylesheet/logos/npm.png'
 import restfullapi from '../stylesheet/logos/restfullapi.png'
 import rapid from '../stylesheet/logos/rapid.png'
+import vercel from '../stylesheet/logos/vercel.png'
 import Proj from '../assets/projectList.jsx'
 {/* ALSO ADD 3D MODELS */}
 {/* ADD HOSTED WEB LINKS & MOBILE APPS & AND GITHUB LINKS */}
 
 function Projects() {
-                  //0   1     2     3        4       5   6       7           8       9    10           11     12     13    14        15
-  const Images = [node,react,vite,firebase,blender,next,mongodb,restfullapi,express,expo,reactnative,socket,chatgpt,rapid,amazonpoly,npm]
+                  //0   1     2     3        4       5   6       7           8       9    10           11     12     13    14        15   16
+  const Images = [node,react,vite,firebase,blender,next,mongodb,restfullapi,express,expo,reactnative,socket,chatgpt,rapid,amazonpoly,npm,vercel]
   const [selectedProject,setSelectedProject] = useState(0)
 
 const LOGO = Proj[0].Skills[0]
@@ -71,7 +72,7 @@ const LOGO = Proj[0].Skills[0]
               {Proj[selectedProject].description} 
             </div>
             <div className='proj-link'>
-              <Link to={Proj[selectedProject].Project_Link} target='_blank'>Project Link</Link>
+              <Link to={Proj[selectedProject].Project_Link} target='_blank'><p>Project Link</p></Link> <Link style={{marginLeft: '50%'}}><p>{Proj[selectedProject].hosted && 'LINK'}</p></Link>
             </div>
         </div>
       </div>

@@ -50,5 +50,16 @@ body {
 
 .proj-link{
     margin-left: 50px;
+    display: flex;
+}
+
+.proj-link a{
+    color: black;
+    transition: 700ms;
+}
+
+.proj-link a:hover{
+    transition: 700ms;
+    color: red;
 }
   
