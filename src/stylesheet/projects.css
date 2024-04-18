@@ -55,11 +55,11 @@ body {
 
 .proj-link a{
     color: black;
-    transition: 700ms;
+    transition: 600ms;
 }
 
 .proj-link a:hover{
-    transition: 700ms;
+    transition: 600ms;
     color: red;
 }
   

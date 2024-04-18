@@ -72,7 +72,7 @@ const LOGO = Proj[0].Skills[0]
               {Proj[selectedProject].description} 
             </div>
             <div className='proj-link'>
-              <Link to={Proj[selectedProject].Project_Link} target='_blank'><p>Project Link</p></Link> <Link style={{marginLeft: '50%'}}><p>{Proj[selectedProject].hosted && 'LINK'}</p></Link>
+              <Link to={Proj[selectedProject].Project_Link} target='_blank'><p>Project Link</p></Link> {Proj[selectedProject].hosted && <Link to={Proj[selectedProject].hosted} target='_blank' style={{marginLeft: '50%'}}><p>Link</p></Link>}
             </div>
         </div>
       </div>
