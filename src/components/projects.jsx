@@ -70,7 +70,7 @@ const LOGO = Proj[0].Skills[0]
               {Proj[selectedProject].description} 
             </div>
             <div className='proj-link'>
-              <Link to=''>Click to check out project</Link>
+              <Link to=''>Project Link</Link>
             </div>
         </div>
       </div>
