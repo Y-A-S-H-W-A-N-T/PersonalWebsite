@@ -57,6 +57,7 @@ const LOGO = Proj[0].Skills[0]
           <p style={{color: selectedProject==2? 'red':'black',fontFamily: selectedProject==2? 'comic_fill':'comics'}} onClick={()=>setSelectedProject(2)}>TRANSLATOR</p>
           <p style={{color: selectedProject==3? 'red':'black',fontFamily: selectedProject==3? 'comic_fill':'comics'}} onClick={()=>setSelectedProject(3)}>COGNIZANCE</p>
           <p style={{color: selectedProject==4? 'red':'black',fontFamily: selectedProject==4? 'comic_fill':'comics'}} onClick={()=>setSelectedProject(4)}>VR ESTATE</p>
+          <p style={{color: selectedProject==5? 'red':'black',fontFamily: selectedProject==5? 'comic_fill':'comics'}} onClick={()=>setSelectedProject(5)}>HARRY POTTER</p>
         </div>
         <div className='proj-des'>
           <div className='skills-used'>
@@ -70,7 +71,7 @@ const LOGO = Proj[0].Skills[0]
               {Proj[selectedProject].description} 
             </div>
             <div className='proj-link'>
-              <Link to=''>Project Link</Link>
+              <Link to={Proj[selectedProject].Project_Link} target='_blank'>Project Link</Link>
             </div>
         </div>
       </div>
