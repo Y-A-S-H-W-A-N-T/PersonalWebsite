@@ -27,13 +27,17 @@ import cplusplus from '../stylesheet/logos/c++.png'
 import python from '../stylesheet/logos/python.png'
 import socket from '../stylesheet/logos/socket.png'
 import chatgpt from '../stylesheet/logos/chatgpt.png'
+import amazonpoly from '../stylesheet/logos/amazonpoly.png'
+import npm from '../stylesheet/logos/npm.png'
+import restfullapi from '../stylesheet/logos/restfullapi.png'
+import rapid from '../stylesheet/logos/rapid.png'
 import Proj from '../assets/projectList.jsx'
 {/* ALSO ADD 3D MODELS */}
 {/* ADD HOSTED WEB LINKS & MOBILE APPS & AND GITHUB LINKS */}
 
 function Projects() {
-                  //0   1     2     3        4       5   6       7   8       9    10           11     12
-  const Images = [node,react,vite,firebase,blender,next,mongodb,api,express,expo,reactnative,socket,chatgpt]
+                  //0   1     2     3        4       5   6       7           8       9    10           11     12     13    14        15
+  const Images = [node,react,vite,firebase,blender,next,mongodb,restfullapi,express,expo,reactnative,socket,chatgpt,rapid,amazonpoly,npm]
   const [selectedProject,setSelectedProject] = useState(0)
 
 const LOGO = Proj[0].Skills[0]
