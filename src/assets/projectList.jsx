@@ -42,6 +42,13 @@ const Proj = [
         Project_Link : 'https://github.com/Y-A-S-H-W-A-N-T/Harry-Potter',
         hosted: 'https://harry-potter-and-the-cursed-child.vercel.app'
     },
+    {
+        name: 'Blender Projects',
+        description: `3D Models developed and designed using Blender software. Model with low poly as well as keen details to them. This project includes 3D models like assets, vehicles, weapons, cartoon characters like Lightning MCqueen from Cars movie. Visit the below website for my 3D models`,
+        Skills: [4],
+        Project_Link : 'https://github.com/Y-A-S-H-W-A-N-T/Blender',
+        hosted: 'https://yashwant-blender.vercel.app/'
+    },
 ]
 
 export default Proj;

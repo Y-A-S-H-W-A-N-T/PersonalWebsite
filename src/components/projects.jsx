@@ -50,7 +50,6 @@ const LOGO = Proj[0].Skills[0]
     animate={{ y: 0, opacity: 1, transition: '1000ms' }}
     exit={{ y: 300,  opacity: 0, transition: '1000ms' }}
     >
-      {console.log(selectedProject)}
       <div className='proj'>
         <div class="proj-titles">
           <p style={{color: selectedProject==0? 'red':'black',fontFamily: selectedProject==0? 'comic_fill':'comics'}} onClick={()=>setSelectedProject(0)}>XCHANGE</p>
@@ -59,6 +58,7 @@ const LOGO = Proj[0].Skills[0]
           <p style={{color: selectedProject==3? 'red':'black',fontFamily: selectedProject==3? 'comic_fill':'comics'}} onClick={()=>setSelectedProject(3)}>COGNIZANCE</p>
           <p style={{color: selectedProject==4? 'red':'black',fontFamily: selectedProject==4? 'comic_fill':'comics'}} onClick={()=>setSelectedProject(4)}>VR ESTATE</p>
           <p style={{color: selectedProject==5? 'red':'black',fontFamily: selectedProject==5? 'comic_fill':'comics'}} onClick={()=>setSelectedProject(5)}>HARRY POTTER</p>
+          <p style={{color: selectedProject==6? 'red':'black',fontFamily: selectedProject==6? 'comic_fill':'comics'}} onClick={()=>setSelectedProject(6)}>BLENDER</p>
         </div>
         <div className='proj-des'>
           <div className='skills-used'>
