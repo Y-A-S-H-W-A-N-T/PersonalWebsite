@@ -33,7 +33,6 @@ import restfullapi from '../stylesheet/logos/restfullapi.png'
 import rapid from '../stylesheet/logos/rapid.png'
 import vercel from '../stylesheet/logos/vercel.png'
 import Proj from '../assets/projectList.jsx'
-{/* ALSO ADD 3D MODELS */}
 {/* ADD HOSTED WEB LINKS & MOBILE APPS & AND GITHUB LINKS */}
 
 function Projects() {
@@ -72,7 +71,7 @@ const LOGO = Proj[0].Skills[0]
               {Proj[selectedProject].description} 
             </div>
             <div className='proj-link'>
-              <Link to={Proj[selectedProject].Project_Link} target='_blank'><p>Project Link</p></Link> {Proj[selectedProject].hosted && <Link to={Proj[selectedProject].hosted} target='_blank' style={{marginLeft: '50%'}}><p>Link</p></Link>}
+              <Link to={Proj[selectedProject].Project_Link} target='_blank'><p style={{color: 'orchid', fontFamily: 'cursive'}}>Project Link</p></Link> {Proj[selectedProject].hosted && <Link to={Proj[selectedProject].hosted} target='_blank' style={{marginLeft: '50%'}}><p style={{color: 'orchid', fontFamily: 'cursive'}}>Link</p></Link>}
             </div>
         </div>
       </div>
