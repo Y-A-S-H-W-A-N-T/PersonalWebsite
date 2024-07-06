@@ -34,38 +34,38 @@ function Skills() {
               <div>
                   <p>Frameworks</p>
               </div>
-              <img src={node} alt='node'/>
-              <img src={react} alt='react'/>
-              <img src={reactnative} alt='react native'/>
-              <img src={expo} alt='expo'/>
-              <img src={next} alt='next'/>
-              <img src={redux} alt='redux'/>
-              <img src={django} alt='django'/>
-              <img src={express} alt='express'/>
-              <img src={vite} alt='vite'/>
-              <img src={mongodb} alt='mongodb'/>
-              <img src={graphql} alt='graphql'/>
-              <img src={firebase} alt='firebase'/>
-              <img src={mysql} alt='mysql'/>
+              <img src={node} alt='node' title="Node.js"/>
+              <img src={react} alt='react' title="ReactJS"/>
+              <img src={reactnative} alt='react native' title="React Native"/>
+              <img src={expo} alt='expo' title="EXPO"/>
+              <img src={next} alt='next' title="Next.js"/>
+              <img src={redux} alt='redux' title="Redux"/>
+              <img src={django} alt='django' title="Django"/>
+              <img src={express} alt='express' title="Express.js"/>
+              <img src={vite} alt='vite' title="Vite"/>
+              <img src={mongodb} alt='mongodb' title="MongoDB"/>
+              <img src={graphql} alt='graphql' title="GraphQL"/>
+              <img src={firebase} alt='firebase' title="Firebase"/>
+              <img src={api} alt='api'  title="REST API"/>
+              <img src={mysql} alt='mysql' title="MySQL"/>
           </div>
           <div className='skills'>
               <div>
                 <p>Other skills</p>
               </div>
-              <img src={blender} alt='blender'/>
-              <img src={ae} alt='ae'/>
-              <img src={unreal} alt='unreal'/>
-              <img src={godot} alt='godot'/>
-              <img src={api} alt='api'/>
-              <img src={git} alt='git'/>
+              <img src={blender} alt='blender' title="Blender"/>
+              <img src={ae} alt='ae' title="After Effects"/>
+              <img src={unreal} alt='unreal' title="Unreal Engine"/>
+              <img src={godot} alt='godot' title="Godot Engine"/>
+              <img src={git} alt='git' title="GIT"/>
           </div>
           <div className='skills'>
               <div>
                 <p>Languages</p>
               </div>
-              <img src={javascript} alt='javascript'/>
-              <img src={cplusplus} alt='c++'/>
-              <img src={python} alt='pyhton'/>
+              <img src={javascript} alt='javascript' title="JavaScript"/>
+              <img src={cplusplus} alt='c++' title="C++"/>
+              <img src={python} alt='pyhton' title="Python"/>
           </div>
         </div>
     </motion.div>
