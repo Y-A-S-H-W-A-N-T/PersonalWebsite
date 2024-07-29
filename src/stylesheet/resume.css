@@ -1,68 +1,104 @@
 @font-face {
     font-family: resume;
     src: url(../stylesheet/fonts/sketchy.ttf);
-}
-
-@font-face {
+  }
+  
+  @font-face {
     font-family: intro;
     src: url(../stylesheet/fonts/bouncy2.otf);
-}
-
-*{
-    margin: 0px;
-}
-
-.resume{
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+  }
+  
+  .resume {
     display: flex;
-    margin-top: 200px;
-    opacity: 0.2px;
-    margin-left: 50px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Ensure it takes the full height of the viewport */
+    padding: 20px;
+    box-sizing: border-box;
     font-family: intro;
-}
-
-.resume h1{
-    height: 150px;
+  }
+  
+  .resume h1 {
     font-size: 40px;
     font-weight: bold;
-}
-
-.resume h1 span{
+    text-align: center; /* Center the text */
+  }
+  
+  .resume h1 span {
     color: red;
     font-weight: lighter;
     font-size: 100px;
-}
-
-.resume p{
-    margin-left: 50%;
+  }
+  
+  .resume p {
     font-size: 40px;
     font-weight: bold;
     color: rgb(4, 4, 119);
-}
-
-.resume .pdf{
+    text-align: center; /* Center the text */
+  }
+  
+  .resume .pdf {
     text-decoration: none;
     color: black;
     box-shadow: 7px 9px 20px red;
-    padding: 0px 30px 0px 30px;
+    padding: 0px 30px;
     transition: 550ms;
     border-radius: 3px;
-}
-
-.resume .pdf:hover{
+  }
+  
+  .resume .pdf:hover {
     transition: 800ms;
     box-shadow: 15px 25px 20px black;
-}
-
-@media(max-width: 1100px){
-    .resume{
-        top: 5%;
+  }
+  
+  /* Media Query for Tablets */
+  @media (max-width: 1100px) {
+    .resume h1 {
+      font-size: 30px;
     }
-    .resume h1{
-        font-size: 20px;
+  
+    .resume h1 span {
+      font-size: 60px;
     }
-    .resume h1 span{
-        font-size: 50px;
+  
+    .resume p {
+      font-size: 30px;
     }
-}
-
-
+  }
+  
+  /* Media Query for Mobile Devices */
+  @media (max-width: 600px) {
+    .resume {
+      padding: 10px;
+      margin-left: 20px;
+    }
+  
+    .resume h1 {
+      font-size: 20px;
+    }
+  
+    .resume h1 span {
+      font-size: 40px;
+    }
+  
+    .resume p {
+      font-size: 20px;
+    }
+  
+    .resume .pdf {
+      padding: 0px 15px;
+    }
+  }  

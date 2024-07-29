@@ -4,74 +4,81 @@
 }
 
 @font-face {
-font-family: comics;
-src: url(../stylesheet/fonts/comic.ttf);
+  font-family: comics;
+  src: url(../stylesheet/fonts/comic.ttf);
 }
 
 @font-face {
-font-family: comic_fill;
-src: url(../stylesheet/fonts/comic_fill.ttf);
+  font-family: comic_fill;
+  src: url(../stylesheet/fonts/comic_fill.ttf);
 }
 
-.nav .sidenav p{
-    transition: 600ms;
-    color: black;
-    margin-top: 90px;
-    font-size: 30px;
-    font-weight: bold;
+.nav .sidenav p {
+  transition: 600ms;
+  color: black;
+  margin-top: 90px;
+  font-size: 30px;
+  font-weight: bold;
 }
 
-.sidenav a{
-    text-decoration: none;
+.sidenav a {
+  text-decoration: none;
 }
 
-
-.nav{
-    position: fixed;
-    right: 10;
-    top: 10%;
-    right: 10;
+.nav {
+  position: fixed;
+  top: 10%;
+  right: 10px;
 }
 
-.sidenav p:hover{
-    font-family: 'comic_fill';
-    color: red;
-    animation:  shake 0.8s  ;
+.sidenav p:hover {
+  font-family: 'comic_fill';
+  color: red;
+  animation: shake 0.8s;
 }
 
-.sidenav{
-    position: fixed;
-    left: 75%;
+.sidenav {
+  position: fixed;
+  left: 75%;
 }
 
-@keyframes shake{
-    0%{
-      transform: translateX(0);
-    }
-    25%{
-      transform: translateX(25px);
-      color: #F1EDE1;
-    }
-      
-    50%{
-      transform: translateX(-25px);
-    }
-    100%{
-      transform: translateX(0px);
-    }
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(25px);
+    color: #F1EDE1;
+  }
+  50% {
+    transform: translateX(-25px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
 }
 
 /* For Mobile */
-
-@media(max-width: 1100px){
-  .nav .sidenav p{
-    font-size: 12px;
-    margin: 10px;
-  }
-  .sidenav{
-    display: flex;
-  }
-  .nav{
+@media (max-width: 1100px) {
+  .nav {
     top: 5%;
+    right: 5px;
+  }
+
+  .nav .sidenav p {
+    font-size: 12px;
+    margin: 10px 0;
+  }
+
+  .sidenav {
+    left: auto;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .sidenav a {
+    margin: 5px 0;
   }
 }

@@ -33,15 +33,11 @@ import restfullapi from '../stylesheet/logos/restfullapi.png'
 import rapid from '../stylesheet/logos/rapid.png'
 import vercel from '../stylesheet/logos/vercel.png'
 import Proj from '../assets/projectList.jsx'
-{/* ADD HOSTED WEB LINKS & MOBILE APPS & AND GITHUB LINKS */}
 
 function Projects() {
-                  //0   1     2     3        4       5   6       7           8       9    10           11     12     13    14        15   16
-  const Images = [node,react,vite,firebase,blender,next,mongodb,restfullapi,express,expo,reactnative,socket,chatgpt,rapid,amazonpoly,npm,vercel]
+                  //0   1     2     3        4       5   6       7           8       9    10           11     12     13    14        15   16     17    18
+  const Images = [node,react,vite,firebase,blender,next,mongodb,restfullapi,express,expo,reactnative,socket,chatgpt,rapid,amazonpoly,npm,vercel,redux,graphql]
   const [selectedProject,setSelectedProject] = useState(0)
-
-const LOGO = Proj[0].Skills[0]
-
 
   return (
     <motion.div

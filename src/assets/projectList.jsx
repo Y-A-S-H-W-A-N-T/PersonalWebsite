@@ -1,10 +1,10 @@
 const Proj = [
     {
         name: 'Xchange',
-        description: `Explore a dynamic mobile marketplace with our cross-platform app developed using React Native and Expo. Users effortlessly buy, sell, and exchange products while engaging in direct communication through integrated chat features. Powered by MongoDB Atlas, our app ensures secure and scalable data storage, while Node.js and Express handle the backend operations, ensuring smooth functionality. Real-time communication is facilitated through Socket.io, enhancing user interaction. With Firebase, this app delivers fast and reliable image uploads, downloads, and storage, enriching the user experience with visually engaging product listings and interactions. Additionally, users can also exchange their products through a convenient system, fostering a vibrant community of trade and collaboration.`,
-        Skills: [0,3,6,7,9,10,8,11],
-        Project_Link : 'https://github.com/Y-A-S-H-W-A-N-T/Xchange',
-        hosted: null
+        description: `A web application for college students, developed using Next.js with a Next.js backend APIs', GraphQL, Redux, Firebase, Socket.io and Apollo. This platform enables students to create private or public chatrooms (Locker Rooms) for seamless communication on various topics. Students can upload and view college news and activities, keeping them informed and engaged. Additionally, users can join and create communities, post content, comment, and interact within these groups, fostering a vibrant and collaborative campus environment. This feature-rich application ensures a connected and informed student body, enhancing their overall college experience.`,
+        Skills: [5,3,0,18,17,11,6,8],
+        Project_Link : 'https://github.com/Y-A-S-H-W-A-N-T/Xchange-Web',
+        hosted: 'https://xchange-red.vercel.app'
     },
     {
         name: 'Welling',

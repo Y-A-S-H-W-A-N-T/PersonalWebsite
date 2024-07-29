@@ -62,4 +62,98 @@ body {
     transition: 600ms;
     color: red;
 }
-  
+
+@media (max-width: 768px) {
+    .proj {
+        flex-direction: column;
+        padding: 10px;
+        margin-left: 10px; /* Adjust this value as needed */
+    }
+
+    .proj-titles {
+        flex-direction: column;
+        align-items: flex-start; /* Align items to the left */
+        margin-left: 0; /* Reset any margin that may be pushing it */
+    }
+
+    .proj-titles p {
+        cursor: pointer;
+        font-family: comics;
+        margin: 10px 0; /* Adjusted margin */
+        width: auto;
+        font-size: 18px;
+        text-align: left; /* Align text to the left */
+    }
+
+    .proj-des {
+        width: 100%;
+        height: auto;
+        box-shadow: 10px 10px 20px black;
+        background-color: rgba(29, 8, 8, 0.832);
+        padding: 20px;
+        color: white;
+        box-sizing: border-box;
+    }
+
+    .skills-used {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .skills-used img {
+        height: 35px;
+        width: 35px;
+        margin: 10px;
+    }
+
+    .proj-des .des {
+        margin: 20px;
+        font-size: 14px;
+    }
+
+    .proj-link {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .proj-link a {
+        color: black;
+        transition: 600ms;
+        margin: 5px;
+    }
+
+    .proj-link a:hover {
+        transition: 600ms;
+        color: red;
+    }
+}
+
+@media (max-width: 480px) {
+    .proj-titles p {
+        font-size: 16px;
+        margin: 5px 0; /* Adjusted margin */
+    }
+
+    .skills-used img {
+        height: 30px;
+        width: 30px;
+        margin: 5px;
+    }
+
+    .proj-des .des {
+        font-size: 12px;
+        margin: 10px;
+    }
+
+    .proj-link {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .proj-link a {
+        font-size: 14px;
+    }
+}

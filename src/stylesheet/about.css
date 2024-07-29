@@ -1,19 +1,21 @@
-::-webkit-scrollbar{
+/* Base Styles */
+
+::-webkit-scrollbar {
     width: 0px;
     height: 0px;
-}
-
-@font-face {
+  }
+  
+  @font-face {
     font-family: about;
     src: url(../stylesheet/fonts/sketchy.ttf);
-}
-
-@font-face {
+  }
+  
+  @font-face {
     font-family: intro;
     src: url(../stylesheet/fonts/bouncy.ttf);
-}
-
-.name{
+  }
+  
+  .name {
     display: flex;
     margin-top: 50px;
     font-size: 80px;
@@ -21,9 +23,9 @@
     font-family: about;
     margin-left: 50px;
     font-weight: bold;
-}
-
-.yashwant{
+  }
+  
+  .yashwant {
     font-family: about;
     font-size: 80px;
     color: black;
@@ -31,16 +33,16 @@
     margin: 60px;
     font-weight: lighter;
     transition: 700ms;
-}
-
-.name span:hover{
+  }
+  
+  .name span:hover {
     font-size: 90px;
     transition: 700ms;
     cursor: pointer;
     color: orchid;
-}
-
-.det{
+  }
+  
+  .det {
     display: flex;
     font-size: 60px;
     color: red;
@@ -48,138 +50,152 @@
     margin-left: 50px;
     font-weight: bold;
     width: 50%;
-}
-
-.skill{
+  }
+  
+  .skill {
     font-family: intro;
     font-size: 30px;
     margin-left: 35px;
     margin-top: 30px;
     height: 50px;
     width: 80%;
-}
-
-.skill p span{
-    font-size: 30x;
+  }
+  
+  .skill p span {
+    font-size: 30px;
     font-weight: lighter;
     margin: 10px;
     padding: 10px;
     transition: 700ms;
-}
-
-.skill p span:hover{
+  }
+  
+  .skill p span:hover {
     color: orchid;
     transition: 700ms;
     font-size: 40px;
     cursor: pointer;
-}
-
-.skill p{
+  }
+  
+  .skill p {
     font-weight: bold;
     font-size: 35px;
-}
-
-.logos{
+  }
+  
+  .logos {
     margin-top: 40px;
     margin-left: 50px;
-}
-
-.logo img{
+    display: inline-flex;
+  }
+  
+  .logo img {
     height: 40px;
     width: 40px;
     margin-right: 20px;
     border-radius: 500px;
     box-shadow: 0px 0px 100px black;
     transition: 600ms;
-}
-
-.logo img:hover{
+  }
+  
+  .logo img:hover {
     transition: 600ms;
     opacity: 1;
     box-shadow: 0px 0px 0px black;
     display: inline-flex;
-}
+  }
+  
+  /* Media Query for Tablets */
+  @media only screen and (max-width: 870px) {
+    .name, .yashwant {
+      font-size: 60px;
+    }
+  
+    .det {
+      font-size: 50px;
+    }
+  
+    .yashwant:hover {
+      font-size: 70px;
+    }
+  
+    .skill p span {
+      font-size: 25px;
+    }
+  
+    .skill p {
+      font-size: 25px;
+    }
+  
+    .logo img {
+      height: 40px;
+      width: 40px;
+    }
+  }
 
-.logos {
-    display: inline-flex;
-}
-
-/* Media Query */
-
-@media only screen and (max-width: 870px) {
-    .name, .yashwant{
-        font-size: 60px;
+  body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+  }
+  
+  /* Media Query for Mobile Devices */
+  @media (max-width: 600px) {
+    .about {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh; /* Ensure it takes the full height of the viewport */
+      overflow: hidden; /* Prevent vertical overflow */
+      padding: 20px; /* Optional padding */
+      box-sizing: border-box;
     }
-    .det{
-        color: red;
-        font-size: 50px;
+  
+    .name {
+      font-size: 40px;
+      margin-left: 15px;
     }
-    .yashwant:hover{
-        font-size: 70px;
-        transition: 700ms;
-        cursor: pointer;
-        color: orchid;
+  
+    .yashwant {
+      font-size: 50px;
+      margin-left: 15px;
     }
-    .skill p span{
-        font-size: 25px;
+  
+    .name span:hover {
+      font-size: 50px;
     }
-    .skill p{
-        font-size: 25px;
+  
+    .det {
+      font-size: 40px;
+      width: 100%;
+      margin-left: 15px;
     }
-    .logo img{
-        margin-top: 0px;
+  
+    .skill {
+      margin-left: 10px;
+      width: 100%;
     }
-    .logo img{
-        height: 40px;
-        width: 40px;
+  
+    .skill p span {
+      font-size: 17px;
+      margin: 0;
     }
-}
-
-/* For Mobile */
-
-@media(max-width: 1100px){
-    .about{
-        position: fixed;
-        top: 10%;
-        left: 0%;
+  
+    .skill p {
+      font-size: 20px;
     }
-    .name{
-        font-size: 40px;
-        margin-left: 15px;
+  
+    .skill p span:hover {
+      font-size: 20px;
     }
-    .yashwant{
-        font-size: 50px;
-        margin-left: 15px;
+  
+    .logo img {
+      height: 35px;
+      width: 35px;
+      box-shadow: none;
     }
-    .name span:hover{
-        font-size: 50px;
+  
+    .logos {
+      margin-top: 20px;
+      margin-left: 20px;
     }
-    .det{
-        font-size: 40px;
-        width: 100%;
-        margin-left: 15px;
-    }
-    .skill p span{
-        font-size: 17px;
-        margin: 0px;
-    }
-    .skill p{
-        font-size: 10px;
-    }
-    .skill{
-        width: 100%;
-        margin-left: 10px;
-    }
-    .skill p span:hover{
-        font-size: 20px;
-    }
-    .logo img{
-        height: 35px;
-        width: 35px;
-        box-shadow: none;
-    }
-    .logos{
-        margin-top: 20px;
-        margin-left: 20px;
-    }
-}
+  }  
