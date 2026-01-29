@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom'
 import Github from '../stylesheet/logos/github.png'
 import Sketchfab from '../stylesheet/logos/sketchfab.png'
 import Hackerrank from '../stylesheet/logos/hackerrank.png'
+import Linkedin from '../stylesheet/logos/linkedin.png'
 
 
 function About() {
@@ -20,7 +21,8 @@ function About() {
         </p>
       </div>
       <div>
-        <p className='det'>Student and a self taught programmer.</p>
+        <p className='det'>a Full-Stack Developer.</p>
+        <p className='det'>Enjoys building projects and learning new technologies along the way.</p>
       </div>
       <div className='skill'>
         <p><span> Web </span> /<span> Android & iOS Apps</span>/<span> 3D Modeling </span></p>
@@ -29,6 +31,7 @@ function About() {
         <Link to='https://github.com/Y-A-S-H-W-A-N-T' target='_blank' className='logo github'><img src={Github} alt='github'/></Link>
         <Link to='https://sketchfab.com/Y_ashwant' target='_blank' className='logo codecheff'><img src={Sketchfab} alt='codecheff'/></Link>
         <Link to='https://www.hackerrank.com/_YASHWANT_?hr_r=1' target='_blank' className='logo hackerrank'><img src={Hackerrank} alt='hackerrank'/></Link>
+        <Link to='https://www.linkedin.com/in/yashwant-rao-54a506250' target='_blank' className='logo linkedin'><img src={Linkedin} alt='linkedin'/></Link>
       </div>
     </motion.div>
   )

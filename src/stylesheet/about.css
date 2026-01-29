@@ -17,7 +17,7 @@
   
   .name {
     display: flex;
-    margin-top: 50px;
+    margin-top: 150px;
     font-size: 80px;
     color: red;
     font-family: about;
@@ -44,12 +44,12 @@
   
   .det {
     display: flex;
-    font-size: 60px;
+    font-size: 40px;
     color: red;
     font-family: about;
     margin-left: 50px;
     font-weight: bold;
-    width: 50%;
+    width: 80%;
   }
   
   .skill {
@@ -79,6 +79,7 @@
   .skill p {
     font-weight: bold;
     font-size: 35px;
+    color: black;
   }
   
   .logos {
@@ -110,7 +111,7 @@
     }
   
     .det {
-      font-size: 50px;
+      font-size: 30px;
     }
   
     .yashwant:hover {
@@ -165,8 +166,8 @@
     }
   
     .det {
-      font-size: 40px;
-      width: 100%;
+      font-size: 30px;
+      width: 85%;
       margin-left: 15px;
     }
   
@@ -195,7 +196,7 @@
     }
   
     .logos {
-      margin-top: 20px;
-      margin-left: 20px;
+      margin-top: 0px;
+      margin-left: 0px;
     }
   }  

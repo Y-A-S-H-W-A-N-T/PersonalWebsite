@@ -22,6 +22,8 @@ import blender from '../stylesheet/logos/blender.png'
 import javascript from '../stylesheet/logos/javascript.png'
 import cplusplus from '../stylesheet/logos/c++.png'
 import python from '../stylesheet/logos/python.png'
+import sveltekit from '../stylesheet/logos/sveltekit.png'
+import docker from '../stylesheet/logos/docker.png'
 
 function Skills() {
   return (
@@ -48,6 +50,7 @@ function Skills() {
               <img src={firebase} alt='firebase' title="Firebase"/>
               <img src={api} alt='api'  title="REST API"/>
               <img src={mysql} alt='mysql' title="MySQL"/>
+              <img src={sveltekit} alt='sveltekit' title="SvelteKit"/>
           </div>
           <div className='skills'>
               <div>
@@ -58,6 +61,7 @@ function Skills() {
               <img src={unreal} alt='unreal' title="Unreal Engine"/>
               <img src={godot} alt='godot' title="Godot Engine"/>
               <img src={git} alt='git' title="GIT"/>
+              <img src={docker} alt='docker' title="Docker"/>
           </div>
           <div className='skills'>
               <div>
