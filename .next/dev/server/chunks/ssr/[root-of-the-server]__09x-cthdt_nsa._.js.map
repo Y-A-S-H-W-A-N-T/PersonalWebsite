@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 13, "column": 0}, "map": {"version":3,"sources":["file:///D:/GitHub/PersonalWebsite/src/app/favicon.ico.mjs%20(structured%20image%20object)"],"sourcesContent":["import src from \"IMAGE\";\nexport default { src, width: 48, height: 48 }\n"],"names":["src","width","height"],"mappings":";;;;AAAA;;uCACe;IAAEA,KAAAA,0IAAG;IAAEC,OAAO;IAAIC,QAAQ;AAAG"}},
+    {"offset": {"line": 28, "column": 0}, "map": {"version":3,"sources":["file:///D:/GitHub/PersonalWebsite/src/app/page.tsx"],"sourcesContent":["export default function Home() {\n  return (\n    <main className=\"flex min-h-dvh items-center justify-center\">\n      <div className=\"glass rounded-2xl p-10 text-center\">\n        <h1 className=\"font-display text-5xl font-bold text-gradient\">Setup works</h1>\n        <p className=\"mt-3 text-muted\">Fonts, tokens, and theme are ready.</p>\n      </div>\n    </main>\n  );\n}"],"names":["Home","className"],"mappings":";;;;;;AAAe,SAASA;IACtB,qBACE,8OAAC;QAAKC,WAAU;kBACd,cAAA,8OAAC;YAAIA,WAAU;;8BACb,8OAAC;oBAAGA,WAAU;8BAAgD;;;;;;8BAC9D,8OAAC;oBAAEA,WAAU;8BAAkB;;;;;;;;;;;;;;;;;AAIvC"}}]
+}

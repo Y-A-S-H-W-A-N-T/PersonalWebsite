@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 46, "column": 0}, "map": {"version":3,"sources":["file:///D:/GitHub/PersonalWebsite/src/components/ThemeProvider.tsx"],"sourcesContent":["\"use client\";\r\n\r\nimport { ThemeProvider as NextThemesProvider } from \"next-themes\";\r\nimport type { ReactNode } from \"react\";\r\n\r\nexport default function ThemeProvider({ children }: { children: ReactNode }) {\r\n  return (\r\n    <NextThemesProvider\r\n      attribute=\"class\"\r\n      defaultTheme=\"dark\"\r\n      enableSystem={false}\r\n      disableTransitionOnChange\r\n    >\r\n      {children}\r\n    </NextThemesProvider>\r\n  );\r\n}"],"names":["ThemeProvider","children","attribute","defaultTheme","enableSystem","disableTransitionOnChange"],"mappings":";;;;;AAEA;AAFA;;;AAKe,SAASA,cAAc,EAAEC,QAAQ,EAA2B;IACzE,qBACE,8OAAC,iKAAkB;QACjBC,WAAU;QACVC,cAAa;QACbC,cAAc;QACdC,yBAAyB;kBAExBJ;;;;;;AAGP"}}]
+}
